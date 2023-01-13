@@ -39,7 +39,7 @@ Installer cassandra
 
 Apache Cassandra est un système de base de données distribuée NoSQL hautement scalable et disponible, facilitant le stockage et la gestion de données structurées à haute vélocité sur de multiples serveurs.
 
-pip install cassandra-driver
+[pip install cassandra-driver](https://cassandra.apache.org/_/quickstart.html)
 
 GUI Client pour Cassandras 
 
