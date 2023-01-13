@@ -27,16 +27,3 @@ for tweet in tweets.data:
     print(tweet.text, tweet.user.screen_name)
 
 
-# Ici nous stockons les tweets dans le Df Pandas et stockage des utilisateurs dans un dictionnaire
-df = pd.DataFrame([[tweet.text, tweet.user.screen_name] for tweet in tweets], columns=["text", "user"])
-
-user_count = defaultdict(int)
-for user in df["user.screen_name"]:
-    user_count[user] += 1
-
-# Et boum à partir du dictionnaire on fait un df panda
-df_user = pd.DataFrame(list(user_count.items()), columns=["user", "count"])
-
-# Et pouf un graphique
-df_user.sort_values("count", ascending=False).head(10).plot(kind="bar", x="user", y="count")
-plt.show()
