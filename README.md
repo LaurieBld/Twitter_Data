@@ -41,9 +41,6 @@ Apache Cassandra est un système de base de données distribuée NoSQL hautement
 
 [pip install cassandra-driver](https://cassandra.apache.org/_/quickstart.html)
 
-GUI Client pour Cassandras 
-
-https://tableplus.com/windows
 
 Installer matplotlib
 
