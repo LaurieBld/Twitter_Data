@@ -33,7 +33,7 @@ Installer pandas
 
 Pandas est une bibliothèque écrite pour le langage de programmation Python permettant la manipulation et l'analyse des données. Elle propose en particulier des structures de données et des opérations de manipulation de tableaux numériques et de séries temporelles. 
 
-py -m pip install pandas
+pip install pandas
 
 Installer cassandra 
 
