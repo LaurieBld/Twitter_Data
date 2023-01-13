@@ -41,6 +41,10 @@ Apache Cassandra est un système de base de données distribuée NoSQL hautement
 
 pip install cassandra-driver
 
+GUI Client pour Cassandras 
+
+https://tableplus.com/windows
+
 Installer matplotlib
 
 Matplotlib est une bibliothèque du langage de programmation Python destinée à tracer et visualiser des données sous forme de graphiques.
